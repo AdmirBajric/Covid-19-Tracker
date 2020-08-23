@@ -7,7 +7,6 @@ import styles from "./Cards.module.css";
 
 const Cards = (props) => {
   let display;
-
   if (props.data.data) {
     const { confirmed, recovered, deaths, lastUpdate } = props.data.data;
 
